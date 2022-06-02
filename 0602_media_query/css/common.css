@@ -1,0 +1,83 @@
+@charset "uft-8";
+/* 문서에 최상단에 위치하게 할것 */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 패딩이나 마진을 키우더라도 박스크기가 커지는 걸 막을 수 있다 */
+}
+
+body
+{
+    color: #333;
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+/* CSS reset */
+
+/* @media all and (max-width:1000px)
+{
+    #box1
+    {
+        background-color: green;
+    }
+}
+
+@media all and (max-width:800px)
+{
+    #box1
+    {
+        background-color: rgb(224, 228, 15);
+    }
+}
+
+@media all and (max-width:600px)
+{
+    #box1
+    {
+        background-color: rgb(185, 30, 152);
+    }
+} */
+
+.cen
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#parent
+{
+    overflow: auto;
+    
+}
+
+#parent a
+{
+    text-align: center;
+    display: block;
+    float: left;
+    border-top: 2px solid red;
+    padding-top: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: calc((100% - 320px) / 4);
+}
+
+.brand_cate
+{
+    font-weight: bold;
+    color: #212529;
+    font-size: 1.05em;
+}
